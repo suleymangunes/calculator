@@ -23,6 +23,8 @@ while True:
         sayi1 = sayi_al("Birinci sayıyı girin: ")
         sayi2 = sayi_al("İkinci sayıyı girin: ")
         print("Sonuç:", sayi1 + sayi2)
+    # eğer kullanıcı 2 ye basarsa iki sayı alınır
+    # birinci sayıdan ikinci sayı çıkarılır ve konsolda yazdırılır
     elif secim == "2":
         sayi1 = sayi_al("Birinci sayıyı girin: ")
         sayi2 = sayi_al("İkinci sayıyı girin: ")
