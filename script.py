@@ -29,6 +29,8 @@ while True:
         sayi1 = sayi_al("Birinci sayıyı girin: ")
         sayi2 = sayi_al("İkinci sayıyı girin: ")
         print("Sonuç:", sayi1 - sayi2)
+    # eğer kullanici 3 e basarsa iki sayı alinir
+    # bu iki sayi carpilir ve konsola yazdirilir
     elif secim == "3":
         sayi1 = sayi_al("Birinci sayıyı girin: ")
         sayi2 = sayi_al("İkinci sayıyı girin: ")
