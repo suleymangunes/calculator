@@ -14,6 +14,7 @@ while True:
     print("4. Bölme")
     print("5. Kare Al")
     print("6. Karekök Al")
+    print("7. Logaritma (e tabanında)")
     print("8. Mod al")
 
     secim = input("Bir işlem seçin: ")
@@ -56,6 +57,9 @@ while True:
         sayi1 = sayi_al("Birinci sayıyı girin: ")
         sayi2 = sayi_al("İkinci sayıyı girin: ")
         print("Sonuç", sayi1 % sayi2)
+    elif secim == "7":
+        sayi1 = sayi_al("Sayıyı girin: ")
+        print("Sonuç", math.log(sayi1))
     else:
         print("Lütfen geçerli bir seçim yapın.(1-4)")
 
