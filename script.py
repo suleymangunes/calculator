@@ -46,6 +46,8 @@ while True:
     elif secim == "5":
         sayi1 = sayi_al("Sayıyı girin: ")
         print("Sonuç", sayi1 * sayi1)
+    # eğer kullanici 6 ya basarsa bir sayi alinir
+    # bu sayinin kareköku alinir ve konsolda yazdirilir
     elif secim == "6":
         sayi1 = sayi_al("Sayıyı girin: ")
         print("Sonuç", math.sqrt(sayi1))
