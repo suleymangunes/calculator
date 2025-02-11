@@ -41,6 +41,8 @@ while True:
         sayi1 = sayi_al("Birinci sayıyı girin: ")
         sayi2 = sayi_al("İkinci sayıyı girin: ")
         print("Sonuç:", sayi1 / sayi2)
+    # eğer kullanici 5 e basarsa bir sayi alinir
+    # bu sayinin karesi alınır ve konsolda yazdırılır
     elif secim == "5":
         sayi1 = sayi_al("Sayıyı girin: ")
         print("Sonuç", sayi1 * sayi1)
