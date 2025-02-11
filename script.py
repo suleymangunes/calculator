@@ -16,7 +16,9 @@ while True:
     print("6. Karekök Al")
 
     secim = input("Bir işlem seçin: ")
-
+    
+    # eğer kullanıcı 1 e basarsa iki sayi alınır
+    # bu iki sayı toplanır ve konsolda yazdırılır
     if secim == "1":
         sayi1 = sayi_al("Birinci sayıyı girin: ")
         sayi2 = sayi_al("İkinci sayıyı girin: ")
