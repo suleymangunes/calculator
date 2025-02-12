@@ -23,3 +23,5 @@ logs/
 my_secret_config.json
 my_normal_config.json
 
+.env
+
