@@ -1,0 +1,23 @@
+*.log
+file?.txt
+logs/**
+/logs/
+logs/
+!important.log
+
+# derleme dosyaları
+*.class
+*.o
+*.out
+*.exe
+
+# geçici dosyalar
+*.tmp
+*.log
+
+# ide dosyaları
+.vscode/
+.idea/
+*.iml
+
+my_secret_config.json
