@@ -1,0 +1,3 @@
+[submodule "libs/mathparse"]
+	path = libs/mathparse
+	url = https://github.com/gunthercox/mathparse.git
